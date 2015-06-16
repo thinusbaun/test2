@@ -23,6 +23,7 @@ public class PurchaseFacade extends AbstractFacade<Purchase> implements com.outb
 
     @Override
     protected EntityManager getEntityManager() {
+      System.out.println("Hahahaha!");
         return em;
     }
 
